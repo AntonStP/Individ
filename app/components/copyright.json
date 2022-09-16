@@ -10,5 +10,131 @@
         "height": 630
       }
     }
+  },
+
+  "header": {
+    "logo": {
+      "image": {
+        "img": {
+          "data-src": "/images/header/logo.svg",
+          "alt": "Miksal",
+          "class": "lazyload"
+        }
+      },
+      "text": "Уникальные интерьерные решения. \nОт&nbsp;3D-модели до&nbsp;установки.",
+      "attr": {
+        "href": "#"
+      }
+    },
+    "top": {
+      "pages": [
+        {
+          "text": "О Компании",
+          "attr": {
+            "href": "#"
+          }
+        },
+        {
+          "text": "Портфолио",
+          "attr": {
+            "href": "#"
+          }
+        },
+        {
+          "text": "Сотрудничество",
+          "attr": {
+            "href": "#"
+          }
+        },
+        {
+          "text": "Контакты",
+          "attr": {
+            "href": "#"
+          }
+        }
+      ],
+      "buttons": [
+        {
+          "attr": {
+            "href": "#"
+          },
+          "text": "+7 (495) 662-87-32",
+          "icon": {
+            "img": {
+              "data-src": "/images/header/phone.svg",
+              "alt": "stock-icon",
+              "class": "lazyload"
+            }
+          }
+        },
+        {
+          "attr": {
+            "href": "#"
+          },
+          "text": "Личный кабинет",
+          "icon": {
+            "img": {
+              "data-src": "/images/header/lk.svg",
+              "alt": "stock-icon",
+              "class": "lazyload"
+            }
+          }
+        },
+        {
+          "attr": {
+            "href": "#"
+          },
+          "mod": "discuss",
+          "text": "Обсудить проект"
+        }
+      ]
+    },
+    "bottom": {
+      "category": [
+        {
+          "text": "Двери",
+          "attr": {
+            "href": "#"
+          }
+        },
+        {
+          "text": "Перегородки",
+          "attr": {
+            "href": "#"
+          }
+        },
+        {
+          "text": "Стеновые панели",
+          "attr": {
+            "href": "#"
+          }
+        },
+        {
+          "text": "Дверные коробки",
+          "attr": {
+            "href": "#"
+          }
+        },
+        {
+          "text": "Мебель",
+          "attr": {
+            "href": "#"
+          }
+        },
+        {
+          "text": "В наличии",
+          "icon": {
+            "img": {
+              "data-src": "/images/header/stock-icon.svg",
+              "alt": "stock-icon",
+              "class": "lazyload"
+            }
+          },
+          "attr": {
+            "href": "#"
+          }
+        }
+      ]
+    }
   }
 }

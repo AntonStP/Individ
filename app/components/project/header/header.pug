@@ -1,0 +1,30 @@
+mixin header(content,params)
+    header.header&attributes()
+        .header__main 
+            .header__content
+                .header__top
+                    +header__list(content.top.pages, {mod:"top"})
+                    +header__list(content.top.buttons, {mod:"top"})
+                .header__bottom
+                    +header__list(content.bottom.category, {mod:"btm"})
+            .header__copmany
+                +header__logo(content.logo)
+                .header__logo-text !{content.logo.text}
+
+
+mixin header__logo(content,params)
+    a.header__logo&attributes(content.attr)&attributes()
+        +picture(content.image)
+
+mixin header__list(content,params)
+    ul.header__list&attributes()
+        +pug-list(content, "header__item", params)
+
+mixin header__item(content,params)
+    - let mod = params.mod;
+    li.header__item(class=`${mod ? `header__item_${mod}` : ""} ${content.mod ? `header__item_${content.mod}` : ""}`)&attributes()
+        a.header__item-link&attributes(content.attr||null)
+            if content.icon
+                span.header__item-icon 
+                    +picture(content.icon)
+            span.header__item-text !{content.text}
