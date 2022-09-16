@@ -138,5 +138,325 @@
         }
       ]
     }
+  },
+
+  "presentation": {
+    "attr": {
+      "id": "presentation"
+    },
+    "list": [
+      {
+        "image": {
+          "list": [
+            {
+              "data-srcSet": "/images/presentation/preview1-m.webp",
+              "media": "(max-width:1023px)",
+              "type": "image/webp"
+            },
+            {
+              "data-srcSet": "/images/presentation/preview1-m.jpg",
+              "media": "(max-width:1023px)"
+            },
+            {
+              "data-srcSet": "/images/presentation/preview1.webp",
+              "type": "image/webp"
+            }
+          ],
+          "img": {
+            "data-src": "/images/presentation/preview1.jpg",
+            "alt": "preview",
+            "class": "lazyload"
+          }
+        }
+      },
+      {
+        "image": {
+          "list": [
+            {
+              "data-srcSet": "/images/presentation/preview2-m.webp",
+              "media": "(max-width:1023px)",
+              "type": "image/webp"
+            },
+            {
+              "data-srcSet": "/images/presentation/preview2-m.jpg",
+              "media": "(max-width:1023px)"
+            },
+            {
+              "data-srcSet": "/images/presentation/preview2.webp",
+              "type": "image/webp"
+            }
+          ],
+          "img": {
+            "data-src": "/images/presentation/preview2.jpg",
+            "alt": "preview",
+            "class": "lazyload"
+          }
+        }
+      },
+      {
+        "image": {
+          "list": [
+            {
+              "data-srcSet": "/images/presentation/preview3-m.webp",
+              "media": "(max-width:1023px)",
+              "type": "image/webp"
+            },
+            {
+              "data-srcSet": "/images/presentation/preview3-m.jpg",
+              "media": "(max-width:1023px)"
+            },
+            {
+              "data-srcSet": "/images/presentation/preview3.webp",
+              "type": "image/webp"
+            }
+          ],
+          "img": {
+            "data-src": "/images/presentation/preview3.jpg",
+            "alt": "preview",
+            "class": "lazyload"
+          }
+        }
+      },
+      {
+        "image": {
+          "list": [
+            {
+              "data-srcSet": "/images/presentation/preview4-m.webp",
+              "media": "(max-width:1023px)",
+              "type": "image/webp"
+            },
+            {
+              "data-srcSet": "/images/presentation/preview4-m.jpg",
+              "media": "(max-width:1023px)"
+            },
+            {
+              "data-srcSet": "/images/presentation/preview4.webp",
+              "type": "image/webp"
+            }
+          ],
+          "img": {
+            "data-src": "/images/presentation/preview4.jpg",
+            "alt": "preview",
+            "class": "lazyload"
+          }
+        }
+      },
+      {
+        "image": {
+          "list": [
+            {
+              "data-srcSet": "/images/presentation/preview5-m.webp",
+              "media": "(max-width:1023px)",
+              "type": "image/webp"
+            },
+            {
+              "data-srcSet": "/images/presentation/preview5-m.jpg",
+              "media": "(max-width:1023px)"
+            },
+            {
+              "data-srcSet": "/images/presentation/preview5.webp",
+              "type": "image/webp"
+            }
+          ],
+          "img": {
+            "data-src": "/images/presentation/preview5.jpg",
+            "alt": "preview",
+            "class": "lazyload"
+          }
+        }
+      },
+      {
+        "image": {
+          "list": [
+            {
+              "data-srcSet": "/images/presentation/preview6-m.webp",
+              "media": "(max-width:1023px)",
+              "type": "image/webp"
+            },
+            {
+              "data-srcSet": "/images/presentation/preview6-m.jpg",
+              "media": "(max-width:1023px)"
+            },
+            {
+              "data-srcSet": "/images/presentation/preview6.webp",
+              "type": "image/webp"
+            }
+          ],
+          "img": {
+            "data-src": "/images/presentation/preview6.jpg",
+            "alt": "preview",
+            "class": "lazyload"
+          }
+        }
+      },
+      {
+        "image": {
+          "list": [
+            {
+              "data-srcSet": "/images/presentation/preview6-m.webp",
+              "media": "(max-width:1023px)",
+              "type": "image/webp"
+            },
+            {
+              "data-srcSet": "/images/presentation/preview6-m.jpg",
+              "media": "(max-width:1023px)"
+            },
+            {
+              "data-srcSet": "/images/presentation/preview6.webp",
+              "type": "image/webp"
+            }
+          ],
+          "img": {
+            "data-src": "/images/presentation/preview6.jpg",
+            "alt": "preview",
+            "class": "lazyload"
+          }
+        }
+      },
+      {
+        "image": {
+          "list": [
+            {
+              "data-srcSet": "/images/presentation/preview6-m.webp",
+              "media": "(max-width:1023px)",
+              "type": "image/webp"
+            },
+            {
+              "data-srcSet": "/images/presentation/preview6-m.jpg",
+              "media": "(max-width:1023px)"
+            },
+            {
+              "data-srcSet": "/images/presentation/preview6.webp",
+              "type": "image/webp"
+            }
+          ],
+          "img": {
+            "data-src": "/images/presentation/preview6.jpg",
+            "alt": "preview",
+            "class": "lazyload"
+          }
+        }
+      },
+      {
+        "image": {
+          "list": [
+            {
+              "data-srcSet": "/images/presentation/preview6-m.webp",
+              "media": "(max-width:1023px)",
+              "type": "image/webp"
+            },
+            {
+              "data-srcSet": "/images/presentation/preview6-m.jpg",
+              "media": "(max-width:1023px)"
+            },
+            {
+              "data-srcSet": "/images/presentation/preview6.webp",
+              "type": "image/webp"
+            }
+          ],
+          "img": {
+            "data-src": "/images/presentation/preview6.jpg",
+            "alt": "preview",
+            "class": "lazyload"
+          }
+        }
+      },
+      {
+        "image": {
+          "list": [
+            {
+              "data-srcSet": "/images/presentation/preview6-m.webp",
+              "media": "(max-width:1023px)",
+              "type": "image/webp"
+            },
+            {
+              "data-srcSet": "/images/presentation/preview6-m.jpg",
+              "media": "(max-width:1023px)"
+            },
+            {
+              "data-srcSet": "/images/presentation/preview6.webp",
+              "type": "image/webp"
+            }
+          ],
+          "img": {
+            "data-src": "/images/presentation/preview6.jpg",
+            "alt": "preview",
+            "class": "lazyload"
+          }
+        }
+      },
+      {
+        "image": {
+          "list": [
+            {
+              "data-srcSet": "/images/presentation/preview6-m.webp",
+              "media": "(max-width:1023px)",
+              "type": "image/webp"
+            },
+            {
+              "data-srcSet": "/images/presentation/preview6-m.jpg",
+              "media": "(max-width:1023px)"
+            },
+            {
+              "data-srcSet": "/images/presentation/preview6.webp",
+              "type": "image/webp"
+            }
+          ],
+          "img": {
+            "data-src": "/images/presentation/preview6.jpg",
+            "alt": "preview",
+            "class": "lazyload"
+          }
+        }
+      },
+      {
+        "image": {
+          "list": [
+            {
+              "data-srcSet": "/images/presentation/preview6-m.webp",
+              "media": "(max-width:1023px)",
+              "type": "image/webp"
+            },
+            {
+              "data-srcSet": "/images/presentation/preview6-m.jpg",
+              "media": "(max-width:1023px)"
+            },
+            {
+              "data-srcSet": "/images/presentation/preview6.webp",
+              "type": "image/webp"
+            }
+          ],
+          "img": {
+            "data-src": "/images/presentation/preview6.jpg",
+            "alt": "preview",
+            "class": "lazyload"
+          }
+        }
+      },
+      {
+        "image": {
+          "list": [
+            {
+              "data-srcSet": "/images/presentation/preview6-m.webp",
+              "media": "(max-width:1023px)",
+              "type": "image/webp"
+            },
+            {
+              "data-srcSet": "/images/presentation/preview6-m.jpg",
+              "media": "(max-width:1023px)"
+            },
+            {
+              "data-srcSet": "/images/presentation/preview6.webp",
+              "type": "image/webp"
+            }
+          ],
+          "img": {
+            "data-src": "/images/presentation/preview6.jpg",
+            "alt": "preview",
+            "class": "lazyload"
+          }
+        }
+      }
+    ]
   }
 }

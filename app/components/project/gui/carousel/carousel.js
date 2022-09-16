@@ -1,16 +1,25 @@
-import Swiper from 'swiper';
-import $ from 'jquery';
+import Swiper, { Navigation, Pagination } from 'swiper';
 
-$(() => {
+const carouselPresentation = document.querySelector('.presentation__carousel');
+console.log('carouselPresentation',carouselPresentation);
 
-  var swiper = new Swiper('.swiper-container', {
+(function(){
+
+  var swiper = new Swiper(carouselPresentation, {
+    // modules: [ Navigation, Pagination ],
     slidePerView: "auto",
-    spaceBetween: 70,
+    spaceBetween: 0,
     centeredSlides: true,
-    autoplay: {
-      delay: 3500,
-      stopOnLastSlide: true
-    }
+    navigation: {
+      nextEl: '.presentation__nav_right',
+      prevEl: '.presentation__nav_left',
+    },
+    pagination: {
+      el: '.presentation__pagination',
+      type: 'bullets',
+      dynamicBullets: true,
+      dynamicMainBullets: 6
+    },
   });
 
-});
+})();

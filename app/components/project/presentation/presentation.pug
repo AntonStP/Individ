@@ -1,0 +1,16 @@
+mixin presentation(content,params)
+    section.presentation&attributes(content.attr)&attributes()
+        .presentation__content
+            +carousel(content.list,"presentation__slide").presentation__carousel
+            .presentation__nav-block 
+                .presentation__nav.presentation__nav_left
+                    include arrow.svg
+                .presentation__pagination
+                .presentation__nav.presentation__nav_right
+                    include arrow.svg
+
+
+mixin presentation__slide(content,params)
+    .presentation__slide.swiper-slide&attributes()
+        .presentation__image
+            +picture(content.image)
