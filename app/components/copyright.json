@@ -59,6 +59,7 @@
             "href": "#"
           },
           "text": "+7 (495) 662-87-32",
+          "mod": "tel",
           "icon": {
             "img": {
               "data-src": "/images/header/phone.svg",
@@ -72,6 +73,7 @@
             "href": "#"
           },
           "text": "Личный кабинет",
+          "mod": "lk",
           "icon": {
             "img": {
               "data-src": "/images/header/lk.svg",

@@ -1,13 +1,13 @@
 mixin header(content,params)
     header.header&attributes()
-        .header__main 
-            .header__content
-                .header__top
-                    +header__list(content.top.pages, {mod:"top"})
-                    +header__list(content.top.buttons, {mod:"top"})
-                .header__bottom
+        .header__content
+            .header__main
+                .header__line.header__line_top
+                    +header__list(content.top.pages, {mod:"top", modList:"left"})
+                    +header__list(content.top.buttons, {mod:"top", modList: "right"})
+                .header__line.header__line_btm
                     +header__list(content.bottom.category, {mod:"btm"})
-            .header__copmany
+            .header__company
                 +header__logo(content.logo)
                 .header__logo-text !{content.logo.text}
 
@@ -17,7 +17,7 @@ mixin header__logo(content,params)
         +picture(content.image)
 
 mixin header__list(content,params)
-    ul.header__list&attributes()
+    ul.header__list(class=`${params.modList ? `header__list_${params.modList}` : ""}`)&attributes()
         +pug-list(content, "header__item", params)
 
 mixin header__item(content,params)

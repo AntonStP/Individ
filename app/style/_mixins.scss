@@ -25,6 +25,13 @@
   }
 }
 
+@mixin HOVER {
+  @include NOT-MOB {
+    &:hover {
+      @content;
+    }
+  }
+}
 
 
 @mixin hover($selector: false){
@@ -91,14 +98,9 @@
 }
 
 
-@mixin wrapper($w: $WRAPPER-D, $wm:$WRAPPER-D-M){
+@mixin wrapper($w: $WRAPPER-D, $wm:$WRAPPER-M){
   @include option(width, $w, $wm);
   margin: 0 auto;
-  max-width: 90%;
   box-sizing: border-box;
   position: relative;
-
-  @include MOBILE{
-    max-width: 100%;
-  }
 }

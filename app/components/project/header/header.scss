@@ -1,0 +1,107 @@
+.header {
+    @mixin mod($mod) {
+        @include modifier("header", $mod){
+            @content;
+        }
+    }
+
+    @mixin item($mod) {
+        @include modifier("header__item", $mod){
+            @content;
+        }
+    }
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: black;
+
+    &__content {
+        @include wrapper();
+        color: $WHITE;
+    }
+
+    &__line {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        @include option(padding, 10px 0);
+        box-sizing: border-box;
+        &_top {
+            border-bottom: 1px solid rgba(255, 255, 255, 0.73);
+            box-sizing: border-box;
+        }
+        &_btm {
+            justify-content: flex-end;
+        }
+    }
+
+    &__list {
+        display: flex;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+    }
+
+    &__item {
+        transition: opacity .3s ease-in-out;
+        &:not(&:last-of-type) {
+            @include option(margin, 0 60px 0 0);
+        }
+        &_top {
+            @include option(font-size, 15px);
+            font-weight: 500;
+        }
+        &_btm {
+            @include option(line-height, 40px);
+            @include option(font-size, 19px);
+            font-weight: bold;
+        }
+        &_discuss {
+            @include option(padding, 7px 20px);
+            border: 1.2px solid #FFFFFF;
+        }
+        @include HOVER {
+            opacity: .7;
+        }
+    }
+
+    &__item-link {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+    }
+
+    &__item-icon {
+        display: block;
+        @include option(font-size, 10px);
+        width: 2.4em;
+        height: 2.4em;
+        @include option(margin, 0 10px 0 0);
+        @include item('lk') {
+            width: 2.4em;
+            height: 2.4em;
+        }
+    }
+
+    &__company {
+        display: flex;
+        position: absolute;
+        @include option(top, 67px);
+        @include option(left, 0px);
+    }
+
+    &__logo {
+        display: inline-flex;
+        @include option(height, 34px)
+    }
+
+    &__logo-text {
+        @include option(margin, 0 0 0 20px);
+        @include option(font-size, 15px);
+        font-weight: 500;
+        white-space: pre-wrap;
+    }
+}
