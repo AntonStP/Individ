@@ -1,6 +1,32 @@
 @font-face {
-  font-family: "Montserrat-Regular";
-  src: url('../../fonts/Montserrat-Regular.ttf'); /* IE9 Compat Modes */
+  font-family: 'manrope';
+  src: local('manrope regular'), local('manrope-regular'),
+  url('../../fonts/manrope-regular.woff2') format('woff2'),
+  url('../../fonts/manrope-regular.woff') format('woff'),
+  url('../../fonts/manrope-regular.ttf') format('truetype');
   font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'manrope';
+  src: local('manrope medium'), local('manrope-medium'),
+  url('../../fonts/manrope-medium.woff2') format('woff2'),
+  url('../../fonts/manrope-medium.woff') format('woff'),
+  url('../../fonts/manrope-medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'manrope';
+  src: local('manrope bold'), local('manrope-bold'),
+  url('../../fonts/manrope-bold.woff2') format('woff2'),
+  url('../../fonts/manrope-bold.woff') format('woff'),
+  url('../../fonts/manrope-bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
   font-display: swap;
 }
